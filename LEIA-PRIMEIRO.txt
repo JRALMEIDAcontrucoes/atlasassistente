@@ -1,0 +1,11 @@
+ATLAS — pacote de aplicação com chat e ligação segura à API de IA
+
+IMPORTANTE: este pacote é o código-fonte preparado. Ele ainda NÃO está instalado no seu GitHub/Render e não funciona no endereço publicado até ser implantado como serviço Web no Render e receber uma chave de API válida.
+
+Arquivos:
+- server.js: servidor e conexão segura com a IA
+- public/index.html: tela de conversa
+- package.json: dependências
+- render.yaml: configuração para Render
+
+A chave OPENAI_API_KEY deve ser adicionada nas variáveis de ambiente do serviço Render, nunca no HTML nem no GitHub. O uso da API pode ter cobrança separada.
